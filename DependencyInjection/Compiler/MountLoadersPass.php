@@ -19,6 +19,7 @@
 namespace JMS\TranslationBundle\DependencyInjection\Compiler;
 
 use JMS\TranslationBundle\Exception\RuntimeException;
+use Symfony\Component\DependencyInjection\ChildDefinition;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\DefinitionDecorator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
